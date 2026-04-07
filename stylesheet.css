@@ -1,5 +1,12 @@
-*{
-    background-color: aquamarine;
+#add-book{
+    display: flex;
+    flex-direction: column;
 }
 
+.add-book-details{
+    width: 350px;
+}
 
+#add-book-button{
+    width: 100px;
+}
