@@ -1,4 +1,49 @@
+#library-collection {
+    /*outline setup start*/
+    border: thin dashed green ;
+    height: 960px;
+    /*outline setup end */
+}
+
+#library-collection-header {
+    /*outline setup start*/
+    border: thin dashed green ;
+    height: 50px;
+    /*outline setup end */
+}
+
+#book-card-section{
+    /*outline setup start*/
+    border: thin dashed green ;
+    height: 200px;
+    /*outline setup end */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    height: 800px;
+    width: 950px;
+}
+
+.book-card {
+    /*outline setup start*/
+    border: thin dashed green ;
+    
+    /*outline setup end */
+
+    height: 220px;
+    width: 300px;
+
+    margin: 5px;
+}
+
 #add-book{
+    /*outline setup start*/
+    border: thin dashed green ;
+    height: 150px;
+    /*outline setup end */
+
     display: flex;
     flex-direction: column;
 }
