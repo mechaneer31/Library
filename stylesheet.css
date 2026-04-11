@@ -1,7 +1,7 @@
 #library-collection {
     /*outline setup start*/
     border: thin dashed green ;
-    height: 960px;
+    /*height: 960px;*/
     /*outline setup end */
 }
 
@@ -15,20 +15,18 @@
 #book-card-section{
     /*outline setup start*/
     border: thin dashed green ;
-    height: 200px;
+    /*height: 200px;*/
     /*outline setup end */
 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 
-    height: 800px;
-    width: 950px;
 }
 
 .book-card {
     /*outline setup start*/
-    border: thin dashed green ;
+    /* border: thin dashed green ; */
     
     /*outline setup end */
 
@@ -36,22 +34,31 @@
     width: 300px;
 
     margin: 5px;
+
+    border: thin solid black;
 }
 
-#add-book{
+.new-book-section {
     /*outline setup start*/
     border: thin dashed green ;
     height: 150px;
     /*outline setup end */
 
-    display: flex;
+    
+
+    display: none;
     flex-direction: column;
 }
 
-.add-book-details{
+.new-book-details{
     width: 350px;
 }
 
-#add-book-button{
+#new-book-button{
     width: 100px;
+}
+
+.book-card-subdiv {
+    display: flex;
+    
 }
